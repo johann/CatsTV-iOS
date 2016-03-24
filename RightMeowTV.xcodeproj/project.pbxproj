@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F01D2D41CA32D7A00E2375E /* StreamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01D2D31CA32D7A00E2375E /* StreamCollectionViewCell.swift */; };
+		8F1760451C758EF600761DF6 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1760441C758EF600761DF6 /* StreamViewController.swift */; };
+		8F1760471C758F5500761DF6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1760461C758F5500761DF6 /* AboutViewController.swift */; };
+		8F1760491C758F6F00761DF6 /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1760481C758F6F00761DF6 /* StreamView.swift */; };
+		8F17604B1C758F8F00761DF6 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F17604A1C758F8F00761DF6 /* AboutView.swift */; };
+		8F17604D1C75901300761DF6 /* RMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F17604C1C75901300761DF6 /* RMTabBarViewController.swift */; };
+		8F17604F1C75932B00761DF6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F17604E1C75932B00761DF6 /* Constants.swift */; };
+		8FC4E33F1C471403000DA8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E33E1C471403000DA8A8 /* AppDelegate.swift */; };
+		8FC4E3441C471403000DA8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4E3421C471403000DA8A8 /* Main.storyboard */; };
+		8FC4E3461C471403000DA8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4E3451C471403000DA8A8 /* Assets.xcassets */; };
+		8FC4E3491C471403000DA8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4E3471C471403000DA8A8 /* LaunchScreen.storyboard */; };
+		8FC4E3601C471462000DA8A8 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3521C471462000DA8A8 /* Dictionary+OAuthSwift.swift */; };
+		8FC4E3611C471462000DA8A8 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3531C471462000DA8A8 /* HMAC.swift */; };
+		8FC4E3621C471462000DA8A8 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3541C471462000DA8A8 /* Int+OAuthSwift.swift */; };
+		8FC4E3631C471462000DA8A8 /* NSData+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3551C471462000DA8A8 /* NSData+OAuthSwift.swift */; };
+		8FC4E3641C471462000DA8A8 /* NSURL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3561C471462000DA8A8 /* NSURL+OAuthSwift.swift */; };
+		8FC4E3651C471462000DA8A8 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3571C471462000DA8A8 /* OAuth1Swift.swift */; };
+		8FC4E3661C471462000DA8A8 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3581C471462000DA8A8 /* OAuthSwiftClient.swift */; };
+		8FC4E3671C471462000DA8A8 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E3591C471462000DA8A8 /* OAuthSwiftCredential.swift */; };
+		8FC4E3681C471462000DA8A8 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E35A1C471462000DA8A8 /* OAuthSwiftHTTPRequest.swift */; };
+		8FC4E3691C471462000DA8A8 /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E35B1C471462000DA8A8 /* OAuthSwiftURLHandlerType.swift */; };
+		8FC4E36A1C471462000DA8A8 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E35C1C471462000DA8A8 /* SHA1.swift */; };
+		8FC4E36B1C471462000DA8A8 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E35D1C471462000DA8A8 /* String+OAuthSwift.swift */; };
+		8FC4E36C1C471462000DA8A8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E35E1C471462000DA8A8 /* Utils.swift */; };
+		8FC4E36D1C471462000DA8A8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E35F1C471462000DA8A8 /* SwiftyJSON.swift */; };
+		8FC4E3701C47149B000DA8A8 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E36E1C47149B000DA8A8 /* Provider.swift */; };
+		8FC4E3711C47149B000DA8A8 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4E36F1C47149B000DA8A8 /* Entry.swift */; };
+		A362B4B244E01EBEE7831C61 /* Pods_RightMeowTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB649AD4FDA69CD1A1C260D6 /* Pods_RightMeowTV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A1F92FA079C45B6952BDDBB /* Pods-RightMeowTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightMeowTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-RightMeowTV/Pods-RightMeowTV.release.xcconfig"; sourceTree = "<group>"; };
+		8F01D2D31CA32D7A00E2375E /* StreamCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F1760441C758EF600761DF6 /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		8F1760461C758F5500761DF6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8F1760481C758F6F00761DF6 /* StreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamView.swift; sourceTree = "<group>"; };
+		8F17604A1C758F8F00761DF6 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		8F17604C1C75901300761DF6 /* RMTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTabBarViewController.swift; sourceTree = "<group>"; };
+		8F17604E1C75932B00761DF6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8FC4E33B1C471403000DA8A8 /* RightMeowTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightMeowTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC4E33E1C471403000DA8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FC4E3431C471403000DA8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC4E3451C471403000DA8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC4E3481C471403000DA8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC4E34A1C471403000DA8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC4E3521C471462000DA8A8 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		8FC4E3531C471462000DA8A8 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		8FC4E3541C471462000DA8A8 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		8FC4E3551C471462000DA8A8 /* NSData+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+OAuthSwift.swift"; sourceTree = "<group>"; };
+		8FC4E3561C471462000DA8A8 /* NSURL+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		8FC4E3571C471462000DA8A8 /* OAuth1Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth1Swift.swift; sourceTree = "<group>"; };
+		8FC4E3581C471462000DA8A8 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		8FC4E3591C471462000DA8A8 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		8FC4E35A1C471462000DA8A8 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		8FC4E35B1C471462000DA8A8 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		8FC4E35C1C471462000DA8A8 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		8FC4E35D1C471462000DA8A8 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		8FC4E35E1C471462000DA8A8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8FC4E35F1C471462000DA8A8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8FC4E36E1C47149B000DA8A8 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		8FC4E36F1C47149B000DA8A8 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		B49B5E9243A994C9B8FCB5DF /* Pods-RightMeowTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightMeowTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RightMeowTV/Pods-RightMeowTV.debug.xcconfig"; sourceTree = "<group>"; };
+		CB649AD4FDA69CD1A1C260D6 /* Pods_RightMeowTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RightMeowTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC4E3381C471403000DA8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A362B4B244E01EBEE7831C61 /* Pods_RightMeowTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B2AD24A72C6B317DC688502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB649AD4FDA69CD1A1C260D6 /* Pods_RightMeowTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC4E3321C471403000DA8A8 = {
+			isa = PBXGroup;
+			children = (
+				8FC4E33D1C471403000DA8A8 /* RightMeowTV */,
+				8FC4E33C1C471403000DA8A8 /* Products */,
+				C79DA8C193CCC3423AAF2A39 /* Pods */,
+				7B2AD24A72C6B317DC688502 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC4E33C1C471403000DA8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC4E33B1C471403000DA8A8 /* RightMeowTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC4E33D1C471403000DA8A8 /* RightMeowTV */ = {
+			isa = PBXGroup;
+			children = (
+				8FC4E3501C471462000DA8A8 /* Libs */,
+				8FC4E33E1C471403000DA8A8 /* AppDelegate.swift */,
+				8F17604E1C75932B00761DF6 /* Constants.swift */,
+				8FC4E3421C471403000DA8A8 /* Main.storyboard */,
+				8FC4E3451C471403000DA8A8 /* Assets.xcassets */,
+				8FC4E3471C471403000DA8A8 /* LaunchScreen.storyboard */,
+				8FC4E34A1C471403000DA8A8 /* Info.plist */,
+				8F1760481C758F6F00761DF6 /* StreamView.swift */,
+				8F1760441C758EF600761DF6 /* StreamViewController.swift */,
+				8F01D2D31CA32D7A00E2375E /* StreamCollectionViewCell.swift */,
+				8F17604C1C75901300761DF6 /* RMTabBarViewController.swift */,
+				8F1760461C758F5500761DF6 /* AboutViewController.swift */,
+				8F17604A1C758F8F00761DF6 /* AboutView.swift */,
+			);
+			path = RightMeowTV;
+			sourceTree = "<group>";
+		};
+		8FC4E3501C471462000DA8A8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				8FC4E36E1C47149B000DA8A8 /* Provider.swift */,
+				8FC4E36F1C47149B000DA8A8 /* Entry.swift */,
+				8FC4E3511C471462000DA8A8 /* OAuth */,
+				8FC4E35F1C471462000DA8A8 /* SwiftyJSON.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		8FC4E3511C471462000DA8A8 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8FC4E3521C471462000DA8A8 /* Dictionary+OAuthSwift.swift */,
+				8FC4E3531C471462000DA8A8 /* HMAC.swift */,
+				8FC4E3541C471462000DA8A8 /* Int+OAuthSwift.swift */,
+				8FC4E3551C471462000DA8A8 /* NSData+OAuthSwift.swift */,
+				8FC4E3561C471462000DA8A8 /* NSURL+OAuthSwift.swift */,
+				8FC4E3571C471462000DA8A8 /* OAuth1Swift.swift */,
+				8FC4E3581C471462000DA8A8 /* OAuthSwiftClient.swift */,
+				8FC4E3591C471462000DA8A8 /* OAuthSwiftCredential.swift */,
+				8FC4E35A1C471462000DA8A8 /* OAuthSwiftHTTPRequest.swift */,
+				8FC4E35B1C471462000DA8A8 /* OAuthSwiftURLHandlerType.swift */,
+				8FC4E35C1C471462000DA8A8 /* SHA1.swift */,
+				8FC4E35D1C471462000DA8A8 /* String+OAuthSwift.swift */,
+				8FC4E35E1C471462000DA8A8 /* Utils.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		C79DA8C193CCC3423AAF2A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49B5E9243A994C9B8FCB5DF /* Pods-RightMeowTV.debug.xcconfig */,
+				5A1F92FA079C45B6952BDDBB /* Pods-RightMeowTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC4E33A1C471403000DA8A8 /* RightMeowTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC4E34D1C471403000DA8A8 /* Build configuration list for PBXNativeTarget "RightMeowTV" */;
+			buildPhases = (
+				EF321102374C119C18F92FDF /* Check Pods Manifest.lock */,
+				8FC4E3371C471403000DA8A8 /* Sources */,
+				8FC4E3381C471403000DA8A8 /* Frameworks */,
+				8FC4E3391C471403000DA8A8 /* Resources */,
+				D5DD4E584FFB9C71F7D50137 /* Embed Pods Frameworks */,
+				420087762A928285660E0FD3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RightMeowTV;
+			productName = RightMeowTV;
+			productReference = 8FC4E33B1C471403000DA8A8 /* RightMeowTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC4E3331C471403000DA8A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Swarm;
+				TargetAttributes = {
+					8FC4E33A1C471403000DA8A8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8FC4E3361C471403000DA8A8 /* Build configuration list for PBXProject "RightMeowTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC4E3321C471403000DA8A8;
+			productRefGroup = 8FC4E33C1C471403000DA8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC4E33A1C471403000DA8A8 /* RightMeowTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC4E3391C471403000DA8A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC4E3491C471403000DA8A8 /* LaunchScreen.storyboard in Resources */,
+				8FC4E3461C471403000DA8A8 /* Assets.xcassets in Resources */,
+				8FC4E3441C471403000DA8A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		420087762A928285660E0FD3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RightMeowTV/Pods-RightMeowTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DD4E584FFB9C71F7D50137 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RightMeowTV/Pods-RightMeowTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF321102374C119C18F92FDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC4E3371C471403000DA8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC4E3631C471462000DA8A8 /* NSData+OAuthSwift.swift in Sources */,
+				8F1760491C758F6F00761DF6 /* StreamView.swift in Sources */,
+				8F17604B1C758F8F00761DF6 /* AboutView.swift in Sources */,
+				8F17604D1C75901300761DF6 /* RMTabBarViewController.swift in Sources */,
+				8F01D2D41CA32D7A00E2375E /* StreamCollectionViewCell.swift in Sources */,
+				8FC4E3701C47149B000DA8A8 /* Provider.swift in Sources */,
+				8FC4E36B1C471462000DA8A8 /* String+OAuthSwift.swift in Sources */,
+				8F17604F1C75932B00761DF6 /* Constants.swift in Sources */,
+				8FC4E3661C471462000DA8A8 /* OAuthSwiftClient.swift in Sources */,
+				8FC4E3681C471462000DA8A8 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				8FC4E3711C47149B000DA8A8 /* Entry.swift in Sources */,
+				8FC4E36C1C471462000DA8A8 /* Utils.swift in Sources */,
+				8FC4E33F1C471403000DA8A8 /* AppDelegate.swift in Sources */,
+				8FC4E3651C471462000DA8A8 /* OAuth1Swift.swift in Sources */,
+				8FC4E3621C471462000DA8A8 /* Int+OAuthSwift.swift in Sources */,
+				8FC4E3641C471462000DA8A8 /* NSURL+OAuthSwift.swift in Sources */,
+				8FC4E3611C471462000DA8A8 /* HMAC.swift in Sources */,
+				8FC4E36D1C471462000DA8A8 /* SwiftyJSON.swift in Sources */,
+				8FC4E36A1C471462000DA8A8 /* SHA1.swift in Sources */,
+				8FC4E3671C471462000DA8A8 /* OAuthSwiftCredential.swift in Sources */,
+				8FC4E3691C471462000DA8A8 /* OAuthSwiftURLHandlerType.swift in Sources */,
+				8F1760451C758EF600761DF6 /* StreamViewController.swift in Sources */,
+				8F1760471C758F5500761DF6 /* AboutViewController.swift in Sources */,
+				8FC4E3601C471462000DA8A8 /* Dictionary+OAuthSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FC4E3421C471403000DA8A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC4E3431C471403000DA8A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC4E3471C471403000DA8A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC4E3481C471403000DA8A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC4E34B1C471403000DA8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FC4E34C1C471403000DA8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC4E34E1C471403000DA8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49B5E9243A994C9B8FCB5DF /* Pods-RightMeowTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RightMeowTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.RightMeowTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FC4E34F1C471403000DA8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1F92FA079C45B6952BDDBB /* Pods-RightMeowTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RightMeowTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.RightMeowTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC4E3361C471403000DA8A8 /* Build configuration list for PBXProject "RightMeowTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC4E34B1C471403000DA8A8 /* Debug */,
+				8FC4E34C1C471403000DA8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC4E34D1C471403000DA8A8 /* Build configuration list for PBXNativeTarget "RightMeowTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC4E34E1C471403000DA8A8 /* Debug */,
+				8FC4E34F1C471403000DA8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC4E3331C471403000DA8A8 /* Project object */;
+}
