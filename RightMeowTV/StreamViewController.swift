@@ -47,7 +47,7 @@ class StreamViewController: UIViewController,UICollectionViewDataSource,UICollec
 
         
         self.navigationController?.navigationBarHidden = false
-        self.navigationController?.navigationBar.topItem!.title = "Explore"
+        self.navigationController?.navigationBar.topItem!.title = "CatsTV"
         self.navigationController?.navigationBar.tintColor = Constants.appColor
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: Constants.appColor]
         
@@ -144,17 +144,13 @@ class StreamViewController: UIViewController,UICollectionViewDataSource,UICollec
             var url = self.cats[indexPath.row].ImgUrl
             var playerItem = AVPlayerItem(URL: NSURL(string: url)!)
        
+            cell.setCell(playerItem)
             
-            self.player = AVPlayer(playerItem: playerItem)
-            
-            cell.catPlayer.player = self.player
-            
-            NSNotificationCenter.defaultCenter().addObserver(self,
-                                selector: "replayLoop:",
-                                name: AVPlayerItemDidPlayToEndTimeNotification,
-                                object: playerItem)
-            cell.catPlayer.player?.play()
-            
+//            NSNotificationCenter.defaultCenter().addObserver(self,
+//                                selector: "replayLoop:",
+//                                name: AVPlayerItemDidPlayToEndTimeNotification,
+//                                object: playerItem)
+                        
 //            cell.loaderImageView.loopCompletionBlock = {
 //                num in
 //                cell.loaderImageView.stopAnimating();
@@ -163,7 +159,8 @@ class StreamViewController: UIViewController,UICollectionViewDataSource,UICollec
         }else{
             print("empty")
         }
-        cell.catPlayer.frame = CGRectMake(0,0,UIScreen.mainScreen().bounds.width-Constants.padding,UIScreen.mainScreen().bounds.height/2 - 100)
+        
+        //cell.catPlayer.frame = CGRectMake(0,0,UIScreen.mainScreen().bounds.width-Constants.padding,UIScreen.mainScreen().bounds.height/2 - 100)
         cell.catPlayer.videoGravity = AVLayerVideoGravityResizeAspectFill
         cell.catPlayer.backgroundColor = UIColor.blackColor().CGColor
        

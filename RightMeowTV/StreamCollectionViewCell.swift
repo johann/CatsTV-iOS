@@ -30,25 +30,48 @@ class StreamCollectionViewCell: UICollectionViewCell {
     func initialize(){
         //catImageView.backgroundColor = UIColor.greenColor()
         //self.addSubview(self.catPlayer)
+        
+        self.catPlayer.frame = CGRectMake(0,0,UIScreen.mainScreen().bounds.width-Constants.padding,UIScreen.mainScreen().bounds.height/2 - 100)
         self.catPlayer.backgroundColor = UIColor.greenColor().CGColor
 //        var filePath = NSBundle.mainBundle().pathForResource("nyancat" + ".gif", ofType: nil)
 //        var data = NSData(contentsOfFile: filePath!);
 //        let image = FLAnimatedImage(animatedGIFData: data);
 //        
 //        self.loaderImageView.animatedImage = image
-        self.layer.addSublayer(self.catPlayer)
+        //self.layer.addSublayer(self.catPlayer)
         
         
         //self.addSubview(self.loaderImageView)
+        
+        
+        
         self.addSubview(self.catPlayerView)
         self.catPlayerView.layer.addSublayer(self.catPlayer)
+        
+        
+        
         //self.addSubview(self.catImageView)
         
         
+        
+        
+    }
+    
+    func setCell(playerItem:AVPlayerItem){
+        
+        
+        var player = AVPlayer(playerItem: playerItem)
+        self.catPlayer.player = player
+        self.catPlayer.player?.play()
+
         NSNotificationCenter.defaultCenter().addObserver(self,
             selector: "replayLoop",
             name: AVPlayerItemDidPlayToEndTimeNotification,
-            object: self.catPlayer.player)
+            object: playerItem)
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
     }
     
     override func updateConstraints(){
@@ -75,10 +98,10 @@ class StreamCollectionViewCell: UICollectionViewCell {
     }
     func createConstraints(){
         
-        self.catPlayerView.snp_makeConstraints{(make) -> Void in
-            make.edges.equalTo(self)
-            
-        }
+//        self.catPlayerView.snp_makeConstraints{(make) -> Void in
+//            make.edges.equalTo(self)
+//            
+//        }
 //        self.loaderImageView.snp_makeConstraints{(make) -> Void in
 //            make.edges.equalTo(self)
 //            
