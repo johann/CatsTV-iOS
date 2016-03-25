@@ -12,6 +12,7 @@ pod 'SVProgressHUD', '~> 1.1.3'
 pod 'SDWebImage', '~>3.7'
 pod 'Fabric'
 pod 'Crashlytics'
+pod 'FLAnimatedImage', '~> 1.0'
 
 end
 

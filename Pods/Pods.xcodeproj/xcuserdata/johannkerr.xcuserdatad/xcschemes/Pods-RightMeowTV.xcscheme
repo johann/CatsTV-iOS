@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '424B33CD58EF4BD78BA9DBA9'
+               BlueprintIdentifier = 'A825BC2734CF773589812D11'
                BlueprintName = 'Pods-RightMeowTV'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_RightMeowTV.framework'>

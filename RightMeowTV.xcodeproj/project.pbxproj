@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F01D2D41CA32D7A00E2375E /* StreamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01D2D31CA32D7A00E2375E /* StreamCollectionViewCell.swift */; };
+		8F01D2D61CA4F25F00E2375E /* nyancat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F01D2D51CA4F25F00E2375E /* nyancat.gif */; };
 		8F1760451C758EF600761DF6 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1760441C758EF600761DF6 /* StreamViewController.swift */; };
 		8F1760471C758F5500761DF6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1760461C758F5500761DF6 /* AboutViewController.swift */; };
 		8F1760491C758F6F00761DF6 /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1760481C758F6F00761DF6 /* StreamView.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		5A1F92FA079C45B6952BDDBB /* Pods-RightMeowTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RightMeowTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-RightMeowTV/Pods-RightMeowTV.release.xcconfig"; sourceTree = "<group>"; };
 		8F01D2D31CA32D7A00E2375E /* StreamCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F01D2D51CA4F25F00E2375E /* nyancat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = nyancat.gif; path = Assets.xcassets/nyancat.dataset/nyancat.gif; sourceTree = "<group>"; };
 		8F1760441C758EF600761DF6 /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		8F1760461C758F5500761DF6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		8F1760481C758F6F00761DF6 /* StreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				8FC4E3451C471403000DA8A8 /* Assets.xcassets */,
 				8FC4E3471C471403000DA8A8 /* LaunchScreen.storyboard */,
 				8FC4E34A1C471403000DA8A8 /* Info.plist */,
+				8F01D2D51CA4F25F00E2375E /* nyancat.gif */,
 				8F1760481C758F6F00761DF6 /* StreamView.swift */,
 				8F1760441C758EF600761DF6 /* StreamViewController.swift */,
 				8F01D2D31CA32D7A00E2375E /* StreamCollectionViewCell.swift */,
@@ -205,6 +208,7 @@
 				TargetAttributes = {
 					8FC4E33A1C471403000DA8A8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WNAGBXF4G9;
 					};
 				};
 			};
@@ -232,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC4E3491C471403000DA8A8 /* LaunchScreen.storyboard in Resources */,
+				8F01D2D61CA4F25F00E2375E /* nyancat.gif in Resources */,
 				8FC4E3461C471403000DA8A8 /* Assets.xcassets in Resources */,
 				8FC4E3441C471403000DA8A8 /* Main.storyboard in Resources */,
 			);
@@ -429,7 +434,9 @@
 			baseConfigurationReference = B49B5E9243A994C9B8FCB5DF /* Pods-RightMeowTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RightMeowTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.RightMeowTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +448,9 @@
 			baseConfigurationReference = 5A1F92FA079C45B6952BDDBB /* Pods-RightMeowTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RightMeowTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swarmnyc.RightMeowTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";

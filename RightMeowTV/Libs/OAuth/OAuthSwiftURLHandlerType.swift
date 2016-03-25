@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 
 @objc public protocol OAuthSwiftURLHandlerType {
     func handle(url: NSURL)
@@ -25,10 +27,11 @@ public class OAuthSwiftOpenURLExternally: OAuthSwiftURLHandlerType {
     }
     
     @objc public func handle(url: NSURL) {
-        #if os(iOS)
-            UIApplication.sharedApplication().openURL(url)
-        #elseif os(OSX)
-            NSWorkspace.sharedWorkspace().openURL(url)
-        #endif
+        UIApplication.sharedApplication().openURL(url)
+//        #if os(iOS)
+//            
+//        #elseif os(OSX)
+//            NSWorkspace.sharedWorkspace().openURL(url)
+//        #endif
     }
 }

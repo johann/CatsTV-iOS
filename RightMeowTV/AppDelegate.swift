@@ -18,20 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let navBarController = UINavigationController()
         
-        navBarController.navigationBar.barTintColor = Constants.appColor
-        let lmTabBarController = LMTabBarController()
-        lmTabBarController.currentUser = self.currentUser
-        lmTabBarController.layerClient = layerClient
-        navBarCon
+        //navBarController.navigationBar.barTintColor = Constants.appColor
+        let rmTabBarController = RMTabBarViewController()
+//        lmTabBarController.currentUser = self.currentUser
+//        lmTabBarController.layerClient = layerClient
+//        navBarCon
         
-        navBarController.viewControllers = [lmTabBarController]
+        navBarController.viewControllers = [rmTabBarController]
         
-        self.window!.rootViewController = navBarController
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window!.makeKeyAndVisible()
         navBarController.view.backgroundColor = UIColor.whiteColor()
         
         
-        
+        self.window!.rootViewController = navBarController
         
         
         return true

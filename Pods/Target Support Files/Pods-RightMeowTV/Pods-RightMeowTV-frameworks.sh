@@ -86,6 +86,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-RightMeowTV/Alamofire.framework"
   install_framework "Pods-RightMeowTV/AnalyticsSwift.framework"
+  install_framework "Pods-RightMeowTV/FLAnimatedImage.framework"
   install_framework "Pods-RightMeowTV/Former.framework"
   install_framework "Pods-RightMeowTV/Haneke.framework"
   install_framework "Pods-RightMeowTV/Runes.framework"
@@ -96,6 +97,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-RightMeowTV/Alamofire.framework"
   install_framework "Pods-RightMeowTV/AnalyticsSwift.framework"
+  install_framework "Pods-RightMeowTV/FLAnimatedImage.framework"
   install_framework "Pods-RightMeowTV/Former.framework"
   install_framework "Pods-RightMeowTV/Haneke.framework"
   install_framework "Pods-RightMeowTV/Runes.framework"

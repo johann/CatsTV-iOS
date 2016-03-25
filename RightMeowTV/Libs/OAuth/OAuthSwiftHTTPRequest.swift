@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public class OAuthSwiftHTTPRequest: NSObject, NSURLConnectionDataDelegate {
     
@@ -166,8 +167,9 @@ public class OAuthSwiftHTTPRequest: NSObject, NSURLConnectionDataDelegate {
     }
     
     public func connection(connection: NSURLConnection, didFailWithError error: NSError) {
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         #if os(iOS)
-            UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+            
         #endif
         
         self.failureHandler?(error: error)

@@ -4,6 +4,7 @@ PODS:
   - Crashlytics (3.7.0):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.7)
+  - FLAnimatedImage (1.0.12)
   - Former (1.2.0)
   - HanekeSwift (0.10.1)
   - Runes (3.1.0)
@@ -18,6 +19,7 @@ DEPENDENCIES:
   - AnalyticsSwift
   - Crashlytics
   - Fabric
+  - FLAnimatedImage (~> 1.0)
   - Former
   - HanekeSwift
   - Runes
@@ -30,6 +32,7 @@ SPEC CHECKSUMS:
   AnalyticsSwift: 76329ac0b66be9747e9f718076c53d264ed24089
   Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
   Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Former: 7c5f4451116e118cafdb1be029e4264f9cb75295
   HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
   Runes: 21c2d32b740a0091dbf036517971278ca9f700b3

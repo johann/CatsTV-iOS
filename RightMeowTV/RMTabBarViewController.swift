@@ -17,14 +17,14 @@ class RMTabBarViewController: UITabBarController, UITabBarControllerDelegate {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
-        self.view.backgroundColor = Constants.backgroundColor
+        self.view.backgroundColor = UIColor.clearColor()
         self.view.tintColor = Constants.appColor
         viewControllers = [streamViewController, aboutViewController]
         viewControllers![0].tabBarItem.title = "Stream"
-        viewControllers![0].tabBarItem.image = UIImage(named: "contactsIcon")
+        viewControllers![0].tabBarItem.image = UIImage(named: "moreIcon")
         
-        viewControllers![1].tabBarItem.title = "Messages"
-        viewControllers![1].tabBarItem.image = UIImage(named: "messagesIcon")
+        viewControllers![1].tabBarItem.title = "Saved"
+        viewControllers![1].tabBarItem.image = UIImage(named: "explore")
         
     }
 

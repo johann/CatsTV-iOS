@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class StreamView: UIView {
     
     lazy var collectionView: UICollectionView = UICollectionView()
@@ -16,15 +17,15 @@ class StreamView: UIView {
         
         
         let layout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        layout.itemSize = CGSizeMake(UIScreen.mainScreen().bounds.width/3 - 2,180)
+        layout.sectionInset = UIEdgeInsets(top: Constants.padding, left: 0, bottom: 0, right: 0)
+        layout.itemSize = CGSizeMake(UIScreen.mainScreen().bounds.width-Constants.padding,UIScreen.mainScreen().bounds.height/2 - 100)
         
-        layout.minimumLineSpacing = 1
+        layout.minimumLineSpacing = 10
         layout.minimumInteritemSpacing = 1
         layout.scrollDirection = UICollectionViewScrollDirection.Vertical
         
         self.collectionView = UICollectionView(frame: CGRectMake(0, 0, self.frame.width, self.frame.height), collectionViewLayout: layout)
-        self.collectionView.registerClass(BookCollectionCell.classForCoder(), forCellWithReuseIdentifier: BookCollectionCell.reuseIdentifier)
+        self.collectionView.registerClass(StreamCollectionViewCell.classForCoder(), forCellWithReuseIdentifier: "StreamCell")
         
         
         self.addSubview(collectionView)
